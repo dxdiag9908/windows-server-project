@@ -19,6 +19,38 @@ This project simulates a real-world Windows Server environment with a focus on A
 - Automate group membership changes.
 - Audit user logins and password aging.
 - Export reports (CSV).
+- # Section 2: PowerShell Administration
+
+This section contains PowerShell scripts designed to automate common Windows sysadmin tasks, such as user and group management, auditing, and report generation.
+
+## Folder Structure
+
+- `User-Group-Creation/` — Scripts for creating users, groups, and managing memberships.
+- `Auditing-Reports/` — Scripts to audit user logins, password aging, and export reports.
+- `Utilities/` — Helper scripts or functions reused across multiple scripts.
+
+## Scripts Overview
+
+### User-Group-Creation
+
+- `Create-Users.ps1` — Automates creation of AD users.
+- `Create-Groups.ps1` — Automates creation of AD groups.
+- `Modify-GroupMembership.ps1` — Adds/removes users to/from groups.
+
+### Auditing-Reports
+
+- `Audit-UserLogins.ps1` — Generates CSV report on user last login times.
+- `Audit-PasswordAging.ps1` — Generates CSV report on password aging.
+
+## How to Use
+
+1. Run the scripts with appropriate permissions (run as Domain Admin or delegated account with necessary rights).
+2. Modify the script parameters (user details, group names, output file paths) as needed.
+3. Review generated CSV reports in the `Reports/` folder.
+
+## Real-world relevance
+
+Automating these tasks improves efficiency, reduces errors, and provides quick visibility into AD user and group status — essential for daily sysadmin operations.
 
 ### 3. Task Automation
 - Scheduled tasks with PowerShell.
