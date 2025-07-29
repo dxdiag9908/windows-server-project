@@ -1,90 +1,87 @@
+Windows SysAdmin Project
+Overview
+This project demonstrates core Windows Server administration skills focusing on Active Directory management and PowerShell automation. It simulates real-world sysadmin workflows for user and group management, auditing, and task automation — essential for IT professionals, students, and jobseekers preparing for certifications or interviews.
 
-# Windows Server Lab – Active Directory & PowerShell Automation
+Project Structure
+1. Active Directory Setup & Management
+Install VMware Tools inside the VM for better performance.
 
-This project simulates a real-world Windows Server environment with a focus on Active Directory, scripting, and automation using PowerShell. The goal is to build and manage a domain controller from scratch, automate admin tasks, and share everything via GitHub.
+Enable Remote Desktop for easy access.
 
----
+Install and configure Active Directory Domain Services (AD DS).
 
-## 📌 Project Structure
+Create Organizational Units (OUs), users, groups, and Group Policy Objects (GPOs).
 
-### 1. Active Directory Setup & Management
-- Install VMware Tools inside the VM for better performance.
-- Enable Remote Desktop for easier access later.
-- Install and configure AD DS.
-- Create OUs, users, groups, and GPOs.
-- Join client machines to the domain (can simulate with another Windows VM).
+Join client machines to the domain (can simulate with additional Windows VMs).
 
-### 2. PowerShell Administration
-- Script user and group creation.
-- Automate group membership changes.
-- Audit user logins and password aging.
-- Export reports (CSV).
-- # Section 2: PowerShell Administration
+2. PowerShell Administration
+Automate common sysadmin tasks using PowerShell scripts:
 
-This section contains PowerShell scripts designed to automate common Windows sysadmin tasks, such as user and group management, auditing, and report generation.
+User and group creation.
 
-## Folder Structure
+Automate group membership changes.
 
-- `User-Group-Creation/` — Scripts for creating users, groups, and managing memberships.
-- `Auditing-Reports/` — Scripts to audit user logins, password aging, and export reports.
-- `Utilities/` — Helper scripts or functions reused across multiple scripts.
+Audit user logins and password aging.
 
-## Scripts Overview
+Export reports in CSV format.
 
-### User-Group-Creation
+Folder Structure:
 
-- `Create-Users.ps1` — Automates creation of AD users.
-- `Create-Groups.ps1` — Automates creation of AD groups.
-- `Modify-GroupMembership.ps1` — Adds/removes users to/from groups.
+bash
+Copy
+Edit
+User-Group-Creation/       # Scripts for creating users, groups, and managing memberships
+Auditing-Reports/          # Scripts for auditing logins, password aging, and generating reports
+Utilities/                 # Reusable helper scripts and functions
+Key Scripts:
 
-### Auditing-Reports
+Script	Purpose
+Create-Users.ps1	Automates creation of Active Directory users
+Create-Groups.ps1	Automates creation of AD groups
+Modify-GroupMembership.ps1	Adds/removes users from groups
+Audit-UserLogins.ps1	Generates CSV report on users' last login times
+Audit-PasswordAging.ps1	Generates CSV report on password aging
 
-- `Audit-UserLogins.ps1` — Generates CSV report on user last login times.
-- `Audit-PasswordAging.ps1` — Generates CSV report on password aging.
+Usage:
 
-## How to Use
+Run scripts with appropriate permissions (Domain Admin or delegated account).
 
-1. Run the scripts with appropriate permissions (run as Domain Admin or delegated account with necessary rights).
-2. Modify the script parameters (user details, group names, output file paths) as needed.
-3. Review generated CSV reports in the `Reports/` folder.
+Modify script parameters such as user details, group names, and output file paths as needed.
 
-## Real-world relevance
+Review generated CSV reports in the Reports/ folder.
 
-Automating these tasks improves efficiency, reduces errors, and provides quick visibility into AD user and group status — essential for daily sysadmin operations.
+3. Task Automation (Upcoming)
+Scheduled task automation using PowerShell.
 
-### 3. Task Automation
-- Scheduled tasks with PowerShell.
-- Services monitoring/restarts.
-- Windows Updates via script.
-- Log rotation and cleanup scripts.
+Service monitoring and automatic restarts.
 
-### 4. Optional Add-ons (Time Permitting)
-- File server role with permission sets.
-- DNS and DHCP basic configuration.
-- Remote PowerShell access setup.
-- Event log parsing and alerting.
+Automated Windows Updates.
 
-### 5. GitHub Integration
-- All scripts pushed to a public GitHub repository.
-- Clear and well-structured README file (goals, usage, relevance).
-- Proper folder structure:
-  ```
-  AD-Setup/
-  Automation-Scripts/
-  Reports/
-  Optional-Addons/
-  ```
+Log rotation and cleanup.
 
----
+4. Optional Add-ons (Time Permitting)
+File server role setup with permission management.
 
-## 💡 Real-World Relevance
+Basic DNS and DHCP configuration.
 
-This lab helps demonstrate real sysadmin workflows for Windows Server environments and is ideal for students, jobseekers, or IT professionals preparing for interviews or certifications.
+Remote PowerShell access setup.
 
----
+Event log parsing and alerting.
 
-## ✅ Status
+5. GitHub Integration
+All scripts are pushed to this public repository.
 
-🟢 In progress  
-📅 Last updated: July 2025
+Organized folder structure for easy navigation:
+
+python
+Copy
+Edit
+AD-Setup/
+Automation-Scripts/
+Reports/
+Optional-Addons/
+Clear, comprehensive README file outlining project goals, usage, and relevance.
+
+Real-World Relevance
+Automating Active Directory management and auditing tasks improves operational efficiency, reduces human errors, and provides quick visibility into the health and status of your environment — all vital skills for daily Windows sysadmin operations.
 
