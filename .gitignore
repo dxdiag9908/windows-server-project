@@ -1,0 +1,9 @@
+# Ignore PowerShell log/output files
+*.log
+*.txt
+
+# Ignore sensitive files
+*.ps1.bak
+*.zip
+*.pem
+*.pfx
