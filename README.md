@@ -1,6 +1,6 @@
 Windows SysAdmin Project
 Overview
-This project demonstrates core Windows Server administration skills focusing on Active Directory management and PowerShell automation. It simulates real-world sysadmin workflows for user and group management, auditing, and task automation — essential for IT professionals, students, and jobseekers preparing for certifications or interviews.
+This project demonstrates core Windows Server administration skills, focusing on Active Directory management and PowerShell automation. It simulates real-world sysadmin workflows for user and group management, auditing, and task automation — essential for IT professionals, students, and job seekers preparing for certifications or interviews.
 
 Project Structure
 1. Active Directory Setup & Management
@@ -27,9 +27,6 @@ Export reports in CSV format.
 
 Folder Structure:
 
-bash
-Copy
-Edit
 User-Group-Creation/       # Scripts for creating users, groups, and managing memberships
 Auditing-Reports/          # Scripts for auditing logins, password aging, and generating reports
 Utilities/                 # Reusable helper scripts and functions
@@ -73,9 +70,6 @@ All scripts are pushed to this public repository.
 
 Organized folder structure for easy navigation:
 
-python
-Copy
-Edit
 AD-Setup/
 Automation-Scripts/
 Reports/
