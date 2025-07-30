@@ -1,0 +1,8 @@
+Name,SamAccountName,Password,OU
+Alice Johnson,ajohnson,Password123!,"OU=Staff,DC=corp,DC=local"
+Bob Smith,bsmith,Welcome456!,"OU=Staff,DC=corp,DC=local"
+Charlie Brown,cbrown,Secure789!,"OU=Staff,DC=corp,DC=local"
+David Lee,dlee,Hello321!,"OU=Staff,DC=corp,DC=local"
+Ella White,ewhite,MyPass987!,"OU=Staff,DC=corp,DC=local"
+
+
