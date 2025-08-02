@@ -1,7 +1,9 @@
 # Windows SysAdmin Project
 
 ## Project Overview
-This project demonstrates core Windows Server administration skills, focusing on **Active Directory (AD) management** and **PowerShell automation**. It simulates real-world sysadmin workflows for user and group management, auditing, task automation, and network configuration — essential for IT professionals, students, and job seekers preparing for certifications or interviews.
+As a Linux engineer looking to broaden my skill set and prepare for future roles in Windows environments, I created this project to gain hands-on experience with core Windows Server administration. This real-world simulation focuses on Active Directory (AD) management and PowerShell automation, covering essential sysadmin workflows such as user and group management, auditing, task automation, and network configuration.
+
+This project represents my journey to upskill and confidently bridge the gap between Linux and Windows systems administration, making me better equipped for diverse IT roles and certification paths
 
 ---
 
