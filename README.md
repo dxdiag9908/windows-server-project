@@ -15,7 +15,7 @@ As a **Linux engineer** expanding into **Windows environments**, this project fo
   - Task automation.
   - Network configuration.
 
-> This journey helps bridge the Linux–Windows gap, preparing for diverse IT roles and certifications.
+> This project is my hands-on path to confidently expand my skills from Linux into Windows sysadmin, helping me tackle real-world challenges and prepare for future roles that require expertise across both environments.
 
 ---
 
