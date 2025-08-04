@@ -1,0 +1,13 @@
+﻿# DHCP Server Role Check
+Get-WindowsFeature -Name DHCP
+
+Display Name                                            Name                       Install State
+------------                                            ----                       -------------
+[X] DHCP Server                                         DHCP                           Installed
+
+# DHCP Scopes configured
+Get-DhcpServerv4Scope
+
+ScopeId         SubnetMask      Name           State    StartRange      EndRange        LeaseDuration
+-------         ----------      ----           -----    ----------      --------        -------------
+10.0.2.0        255.255.255.0   Scope1         Active   10.0.2.100      10.0.2.200      8.00:00:00

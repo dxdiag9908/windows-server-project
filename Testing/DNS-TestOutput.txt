@@ -1,0 +1,7 @@
+﻿Get-DnsServerForwarder
+
+UseRootHint        : True
+Timeout(s)         : 3
+EnableReordering   : True
+IPAddress          : {8.8.8.8, 10.0.2.3}
+ReorderedIPAddress : {10.0.2.3, 8.8.8.8}

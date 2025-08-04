@@ -1,0 +1,21 @@
+﻿gpupdate /force
+Updating policy...
+
+Computer Policy update has completed successfully.
+User Policy update has completed successfully.
+
+gpresult /r
+
+Microsoft (R) Windows (R) Operating System Group Policy Result tool v2.0
+ Microsoft Corporation. All rights reserved.
+
+Created on 03/08/2025 at 23:56:47
+
+[...truncated output...]
+
+Applied Group Policy Objects
+-----------------------------
+    Default Domain Controllers Policy
+    Default Domain Policy
+
+[...truncated output...]
